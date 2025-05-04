@@ -1,0 +1,79 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  /* text-align: center; */
+  background-color: pink;
+}
+h2 {
+  height: 3rem;
+  background-color: #8b1b31;
+  color: white;
+  text-align: center;
+  line-height: 3rem;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.noteBtnContainer {
+  margin-top: 20px;
+}
+.noteBtnContainer {
+  height: 49px;
+  width: 115px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.noteBtn {
+  padding: 10px;
+  background-color: #8b1b31;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.noteBtnContainer:hover {
+  background-color: black;
+}
+
+.note {
+  background-color: #fff;
+  height: 10rem;
+  width: 400px;
+  outline: none;
+  padding: 25px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  color: #8b1b31;
+}
+.noteText {
+  /* background-color: green; */
+  height: 6rem;
+  width: 100%;
+  outline: none;
+}
+
+.removeIcon {
+  margin-right: 15px;
+
+}
+.fa-trash-can {
+  position: absolute;
+  margin-right: 20px;
+  /* margin-top: 10px; */
+  cursor: pointer;
+}
+
